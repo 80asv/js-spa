@@ -12,6 +12,6 @@ export async function ajax(props){
                         <p>Error ${err.status}: ${message}</p>
                     </div>
                 `;
-                document.querySelector('loader').style.display = 'none';
+                document.querySelector('.loader').style.display = 'none';
             })
 }
